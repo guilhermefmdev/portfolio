@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  color: black;
+  background-color: white;
+  
+  font-family: Helvetica;
+}
+
+#main-wrapper {
+  margin: 0 auto;
+  width: 55%;
+  text-align: left;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em; 
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.images-grid {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+}
+
+.image {
+  width: 300px;
+}
+
+.image-container p {
+  font-size: 0.75em
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+nav {
+  font-size: 1.5em;
+  list-style: inside;
+}
