@@ -3,16 +3,20 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Portfolio</title>
+    <title>Guilherme Ferreira de Moraes - Portfolio</title>
     <link href="css/main.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
   </head>
   <body>
     <div id="main-wrapper">
       <header>
-        <h1>Portfolio</h1>
-        <h4>by Guilherme Ferreira de Moraes</h4>
-      </header> 
+        <p id="big-title">Portfolio</p>
+        
+        <h1 id="small-title">
+          <span>by </span>
+          Guilherme Ferreira de Moraes
+        </h1>
+      </header>
       
       <section id="tldr">
         <h2>tl;dr</h2>
@@ -26,10 +30,11 @@
       </section>
 
       <section id="navigation">
+        <h2>Index</h2> 
         <nav>
           <ul>
             <li><a href="#tldr">tl&#59;dr</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#tech-projects">Tech Projects</a></li>
             <li><a href="#about-me">About me</a></li>
             <li><a href="#references">References</a></li>
             <li><a href="#contact">Contact!</a></li>
@@ -37,14 +42,47 @@
         </nav>
       </section>
       
-      <section id="projects">
-        <h2>Projects</h2> 
+      <section id="tech-projects">
+        <h2>Tech Projects</h2> 
+        
+        <p>
+          Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. 
+        </p>
+
+        <table id="projects-table">
+          <thead>
+            <tr>
+              <th>Preview</th>
+              <th>Project</th>
+              <th>Description</th>
+              <th>Repository</th>
+            </tr> 
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="Preview:">
+                <img class="image" src="images/satellite_farm_image_placeholder.png" alt="Project 1 preview image.">
+              </td>
+              <td data-label="Project:">Finassis (WIP)</td>
+              <td data-label="Description:">A conversational application for tracking expenses, monitoring income, and generating personalized financial insights.</td>
+              <td data-label="Repository:"><a href="https://github.com/guilhermefmdev/finassis">GitHub</a></td>
+            </tr> 
+            <tr>
+              <td data-label="Preview:">
+                <img class="image" src="images/satellite_farm_image_placeholder.png" alt="Project 2 preview image.">
+              </td>
+              <td data-label="Project:">Project 2</td>
+              <td data-label="Description:">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</td>
+              <td data-label="Repository:"><a href="#">GitHub</a></td>
+            </tr> 
+          </tbody>
+        </table>
       </section>
       
       <section id="about-me">
         <h2>About me</h2> 
         
-        <h3>More than a <u>Software Developer</u></h2>
+        <span>More than a <u>Software Developer</u></span>
         
         <div class="images-grid">
 
@@ -75,6 +113,12 @@
       
       <section id="references">
         <h2>References</h2> 
+
+        <ul>
+          <li><a href="https://normadesign.it/en/">Norma Design</a> - "Norma is a Turin-based graphic design studio that explores the nihilistic possibility of removing aesthetic choice from the transmission of information. Norma does absolutely nothing special. This website works on any browser and is built to be the least website possible."</li>
+          <li><a href="https://brutalist-web.design/">Guidelines for Brutalist Web Design</a> - "The term brutalism is often associated with <a href="https://en.wikipedia.org/wiki/Brutalist_architecture">Brutalist Architecture</a>, however it can apply to other forms of construction, such as web design. This website explains how."</li>
+          <li><a href="https://www.tooooools.app/">TOOOOOOLS</a> - "Tooooools (exactly 6 o's), free minimalist and lo-fi effects for image and video processing online."</li>
+        </ul> 
       </section>
     </div>
   </body>
