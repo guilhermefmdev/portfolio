@@ -20,16 +20,13 @@ h3 {
   font-weight: 400;
 }
 
-p {
+p, li {
   font-size: 1.5em;
+  margin-bottom: 0.5em;
 }
 
 header {
   margin-bottom:2em;
-}
-
-nav {
-  font-size: 1.5em;
 }
 
 ul {
@@ -48,7 +45,6 @@ table {
   font-size: 1em;
   border: 1px solid #bebebe;
   width: 100%;
-  margin: 1em 0;
 }
 
 td, th{
