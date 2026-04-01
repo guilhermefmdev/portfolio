@@ -8,77 +8,124 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.jpeg">
   </head>
   <body>
-    <div id="main-wrapper">
+    <main class="page">
       <header>
-        <span id="big-title">Portfolio</span>
+        <span class="title">Portfolio</span>
         
-        <h1 id="small-title">
+        <h1 class="subtitle">
           <span>by </span>
           Guilherme Ferreira de Moraes
         </h1>
       </header>
       <section id="tldr">
         <h2>tl;dr</h2>
-        <p class="main-paragraph">
-          I build accessible and highly functional systems that integrate data from multiple sources and turn complex information into tools people can actually use.
-          My work is mostly done with Python, JavaScript, APIs, and data-driven architectures. </p>
+        <p>
+          I build systems that integrate data from multiple sources and turn complex information into tools people can actually use. 
+          Most of my work involves Python, JavaScript, APIs, and data-driven architectures (see <a href="#technologies-and-tools">Technologies and tools</a> for more).
+        </p>
       </section>
 
       <section id="navigation">
         <h2>Index</h2> 
         <nav>
-          <ul>
+          <ol>
             <li><a href="#tldr">tl&#59;dr</a></li>
-            <li><a href="#projects-and-contributions">Projects and contributions</a></li>
+            <li>
+              <a href="#experience">Experience</a>
+              <ol>
+                <li><a href="#projects-and-contributions">Projects and contributions</a></li>
+                <li><a href="#technologies-and-tools">Technologies and tools</a></li>
+              </ol>
+            </li>
             <li><a href="#about-me">About me</a></li>
             <li><a href="#inspiration">Inspiration</a></li>
             <li><a href="#contact">Contact</a></li>
-          </ul> 
+          </ol> 
         </nav>
       </section>
       
-      <section id="projects-and-contributions">
-        <h2>Projects and contributions</h2> 
-        <p class="main-paragraph">
-          Most of the repositories for the projects I've developed (including this portfolio) are available on GitHub. 
-          Feel free to contribute code, suggest ideas, or use them as inspiration. 
-          This list also includes projects I contributed to as part of my professional work at different companies.
-        </p>
+      <section id="experience">
+        <h2>Experience</h2> 
 
-        <table id="projects-table">
-          <thead>
-            <tr>
-              <th>Preview</th>
-              <th>Project</th>
-              <th>Description</th>
-              <th>Repository</th>
-            </tr> 
-          </thead>
-          <tbody>
-            <tr>
-              <td data-label="Preview:">
-                <img class="image" src="images/wip_project_preview.png" alt="Project 1 preview image.">
-              </td>
-              <td data-label="Project:">Finassis (WIP)</td>
-              <td data-label="Description:">A conversational application for tracking expenses, monitoring income, and generating personalized financial insights.</td>
-              <td data-label="Repository:"><a target="_blank" href="https://github.com/guilhermefmdev/finassis">GitHub</a></td>
-            </tr> 
-            <tr>
-              <td data-label="Preview:">
-                <img class="image" src="images/portfolio_project_preview.png" alt="Project 2 preview image.">
-              </td>
-              <td data-label="Project:">Portfolio</td>
-              <td data-label="Description:">My minimalist and accessible portfolio.</td>
-              <td data-label="Repository:"><a target="_blank" href="https://github.com/guilhermefmdev/portfolio">GitHub</a></td>
-            </tr> 
-          </tbody>
-        </table>
+        <section id="projects-and-contributions">
+          <h3>Projects and contributions</h3>
+          <p>
+            This list includes personal projects as well as projects I contributed to as part of my professional work at different companies.
+            For projects available on my GitHub, feel free to contribute code, suggest ideas, or use them as inspiration.
+          </p>
+
+          <table id="projects-table">
+            <thead>
+              <tr>
+                <th>Preview</th>
+                <th>Project</th>
+                <th>Description</th>
+                <th>Repository</th>
+              </tr> 
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Preview:">
+                  <img class="image" src="images/wip_project_preview.png" alt="Project 1 preview image.">
+                </td>
+                <td data-label="Project:"><a target="_blank" href="#">Finassis (WIP)</a></td>
+                <td data-label="Description:">A conversational application for tracking expenses, monitoring income, and generating personalized financial insights.</td>
+                <td data-label="Repository:"><a target="_blank" href="https://github.com/guilhermefmdev/finassis">GitHub</a></td>
+              </tr> 
+              <tr>
+                <td data-label="Preview:">
+                  <img class="image" src="images/main_system_setup_preview.png" alt="Project 1 preview image.">
+                </td>
+                <td data-label="Project:"><a target="_blank" href="#">dotfiles</a></td>
+                <td data-label="Description:">My personal system configuration files, scripts, and environment setup.</td>
+                <td data-label="Repository:"><a target="_blank" href="https://github.com/guilhermefmdev/dotfiles">GitHub</a></td>
+              </tr> 
+              <tr>
+                <td data-label="Preview:">
+                  <img class="image" src="images/portfolio_project_preview.png" alt="Project 2 preview image.">
+                </td>
+                <td data-label="Project:"><a target="_blank" href="https://guilhermefmdev.github.io/portfolio/">Portfolio</a></td>
+                <td data-label="Description:">My minimalist and accessible portfolio.</td>
+                <td data-label="Repository:"><a target="_blank" href="https://github.com/guilhermefmdev/portfolio">GitHub</a></td>
+              </tr> 
+            </tbody>
+          </table>
+        </section>
+        
+        <section id="technologies-and-tools">
+          <h3>Technologies and tools</h3>
+          
+          <dl>
+            <dt><strong>Languages</strong></dt>
+            <dd>Python, JavaScript, TypeScript, Bash</dd>
+            
+            <dt><strong>Frameworks</strong></dt>
+            <dd>Django, FastAPI, Express.js, Vue.js</dd>
+           
+            <dt><strong>Databases</strong></dt>
+            <dd>PostgreSQL, SQL Server, SQLite, ChromaDB</dd>
+            
+            <dt><strong>Infrastructure related</strong></dt>
+            <dd>AWS (S3, ECS, RDS, ECR, SQS), Docker, Grafana</dd>
+            
+            <dt><strong>AI</strong></dt>
+            <dd>LlamaIndex, Vector Databases, RAG pipelines</dd>
+            
+            <dt><strong>Geospatial</strong></dt>
+            <dd>GDAL, GeoPandas, QGIS, Fiona</dd>
+            
+            <dt><strong>Concepts</strong></dt>
+            <dd>REST APIs, Microservices, Data Pipelines</dd>
+            
+            <dt><strong>Other</strong></dt>
+            <dd>HTML, CSS, Git, GNU/Linux</dd>
+          </dl>
+        </section>
+        
       </section>
       
       <section id="about-me">
         <h2>About me</h2> 
-        
-        <span>More than a <u>Software Developer</u></span>
         
         <div class="images-grid">
 
@@ -93,15 +140,17 @@
           </figure>
           
           <figure class="image-container">
-            <img class="image" src="images/ceara_wind_turbines.png" alt="Selfie of me among wind turbines while traveling in Ceará - Brazil.">
+            <img class="image" src="images/ceara_wind_turbines.png" alt="Selfie of me among wind turbines while traveling in Ceará - Brazil."> 
             <figcaption><u>Among the wind turbines in Ceará - Brazil.</u></figcaption>
           </figure>
         </div>
 
-        <p class="main-paragraph">
-          Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. 
-          Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. 
-          Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. 
+        <p>
+          Guilherme Ferreira de Moraes, 21, São Paulo - Brazil.<br>
+          Most of the things I build come from curiosity. I like understanding how systems work and then finding ways to make them simpler or more useful. 
+          That often leads me to problems involving data, automation, or connecting different tools and services.
+          Lately I’ve been especially interested in geographic data, AI applied to real-world problems, and mathematical approaches to modeling or analysis. 
+          I also enjoy exploring systems in a hands-on, hacker-ish way. Outside of programming, music and traveling are two things that keep feeding that same curiosity.
         </p>
       </section>
       
@@ -123,6 +172,6 @@
           <li><a target="_blank" href="https://github.com/guilhermefmdev/">Github</a></li>
         </ul> 
       </section>
-    </div>
+    </main>
   </body>
 </html>
